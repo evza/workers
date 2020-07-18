@@ -1,0 +1,12 @@
+<h2>Список сотрудников</h2>
+    <div *ngFor="let empl of empls">
+        <div class="container">
+            <div class="container-body">
+                <div><h3>{{ empl.title }}</h3>
+                <a routerLink="/{{ empl.key }}" class="more">Полная информация</a>
+                <div style="clear: right;"></div>
+            </div>
+        </div>
+    </div>
+
+  

@@ -1,0 +1,25 @@
+.box {
+    width: 80%;
+    margin: auto;
+    padding-top: 3%;
+}
+.box img {
+    display: block;
+    width: 150px;
+    margin: auto;
+}
+
+.key {
+    visibility: hidden;
+}
+
+.content {
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 15pt;
+}
+
+span {
+    font-size: 15pt;
+    color: #545d46;
+}
